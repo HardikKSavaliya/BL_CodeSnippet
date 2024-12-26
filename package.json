@@ -1,5 +1,9 @@
 {
   "dependencies": {
-    "keccak": "^3.0.4"
+    "axios": "^1.7.9",
+    "bitcoinjs-lib": "^6.1.7",
+    "ecpair": "^3.0.0-rc.0",
+    "keccak": "^3.0.4",
+    "tiny-secp256k1": "^2.2.3"
   }
 }
