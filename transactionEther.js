@@ -11,6 +11,7 @@ console.log("Connected to Ethereum Mainnet");
 const wallet = ethers.Wallet.createRandom();
 console.log("Address:", wallet.address);
 console.log("Private Key:", wallet.privateKey);
+console.log("Public Key:", wallet.publicKey);
 
 // Step 3: Define Transaction
 const transaction = {
