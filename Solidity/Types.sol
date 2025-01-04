@@ -11,6 +11,11 @@ contract SolidityTypesDemo {
     bytes32 public fixedBytes = "Fixed size";  // Fixed-size byte array (32 bytes max)
     string public stringValue = "Hello, Solidity!"; // String
 
+    // Addition
+    function Addition(uint a,uint b) external pure returns (uint c) {
+        return a+b;
+    }
+
     // Arrays
     uint256[] public dynamicArray;             // Dynamic array
     uint256[3] public fixedArray = [1, 2, 3];  // Fixed-size array
